@@ -1,0 +1,38 @@
+@media screen and (min-width: 1200px) {
+    .mainSoldPageOfGoods{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 30px 100px;
+        gap: 1.7rem;
+    }
+
+    .blockForOneItem{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .oneItemImage{
+        width: 320px;
+        height: 440px
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .mainSoldPageOfGoods{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 30px 55px;
+        gap: 1.7rem;
+        justify-content: space-between;
+    }
+    .blockForOneItem{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .oneItemImage{
+        display: block;
+        width: 320px;
+        height: 400px;
+    }
+}

@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com");
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap");
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/*body {*/
+/*    height: 100%;*/
+/*    !*background-image: url("./images/Rectangle 5.png") ;*!*/
+/*    !*width: 100%;*!*/
+/*    background-size: cover;*/
+/*    background-position: center center;*/
+/*    !*min-height: 100vh;*!*/
+/*    background-repeat: no-repeat;*/
+/*}*/
+
+.mainBlockForMainPage{
+    background-image: url("./images/Rectangle 5.png") ;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.blockFor3PartOfScreen{
+    background: rgba(14, 14, 14, 0.8) center;
+    height: 100vh;
+    background-size: cover;
+    width: 30vw
+}
+
+
+.hidden {
+    display: none;
+}
+
+.mainBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 30px;
+    margin-left: 38px;
+    position: relative;
+}
+
+.mainInput {
+    width: 299px;
+    height: 40px;
+    border: 0.5px solid #FFFFFF;
+    background-color: black;
+    color: #FFFFFF;
+}
+
+.button {
+    width: 158px;
+    height: 50px;
+    background: #181818;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-left: 78px;
+    margin-top: 10px;
+}
+
+.forgotPassButton {
+    position: absolute;
+    color: white;
+    font-size: 13px;
+    right: 30px;
+    top: 147px;
+}
+
+.close_button {
+    background: #636363;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.close_button:hover {
+    background-color: #FFFFFF;
+}
+
+@media screen and (min-width: 1200px) {
+    .vsemTorbaLogo1{
+        font-family: 'Climate Crisis', cursive;
+        font-style: normal;
+        font-weight: 1000;
+        position: absolute;
+        width: 693px;
+        height: 150px;
+        left: 80px;
+        top: 40px;
+        font-size: 110px;
+        color: white;
+    }
+    .vsemTorbaLogo2{
+        font-family: 'Tilt Prism', cursive;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 99px;
+        position: absolute;
+        top: 60px;
+        left: 370px;
+        color: #636363;
+    }
+
+    .descriptionOfShop{
+        position: absolute;
+        top: 220px;
+        left: 400px;
+        font-size: 28px;
+        width: 750px;
+        /*height: 110%;*/
+        color: #ffffff;
+        background-color: rgba(98, 113, 122, 0.75);
+    }
+
+    .buttonForComeToShop{
+        position: absolute;
+        width: 200px;
+        height: 60px;
+        left: 100px;
+        background-color: #000;
+        top: 500px;
+        color: #fff;
+        border-radius: 50px;
+    }
+
+    .buttonForComeToShop:hover{
+        background-color: #ccc;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .vsemTorbaLogo1{
+        font-family: 'Climate Crisis', cursive;
+        font-style: normal;
+        font-weight: 1000;
+        position: absolute;
+        width: 693px;
+        height: 150px;
+        left: 80px;
+        top: 40px;
+        font-size: 130px;
+        color: white;
+    }
+
+    .vsemTorbaLogo2{
+        font-family: 'Tilt Prism', cursive;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 119px;
+        position: absolute;
+        top: 60px;
+        left: 420px;
+        color: #636363;
+    }
+
+    .descriptionOfShop{
+        position: absolute;
+        top: 290px;
+        left: 450px;
+        font-size: 28px;
+        width: 750px;
+        /*height: 110%;*/
+        color: #ffffff;
+        background-color: rgba(98, 113, 122, 0.75);
+    }
+
+    .buttonForComeToShop{
+        position: absolute;
+        font-size: 18px;
+        width: 220px;
+        height: 70px;
+        left: 100px;
+        background-color: #000;
+        top: 553px;
+        color: #fff;
+        border-radius: 50px;
+    }
+
+    .buttonForComeToShop:hover{
+        background-color: #ccc;
+    }
+}
+
+
+
+

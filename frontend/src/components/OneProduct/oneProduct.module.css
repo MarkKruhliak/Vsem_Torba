@@ -1,0 +1,12 @@
+html{
+    background-color: black;
+}
+
+.basket:hover{
+    color: #897373;
+}
+
+.mainBlockForOneProduct{
+    max-width: 1440px;
+    height: 100%;
+}

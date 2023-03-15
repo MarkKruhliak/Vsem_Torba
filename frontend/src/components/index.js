@@ -1,0 +1,5 @@
+export * from "./Main/Main"
+export * from "./SoldPage/SoldPage"
+export * from "./OneProduct/OneProduct"
+export * from "./Basket/Basket"
+export * from "./ForgotPassword/ForgotPassword"
